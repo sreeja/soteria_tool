@@ -51,3 +51,4 @@ This checks whether each update and merge satisfies the invariant and the pre-co
 
 ## Running tests
 `docker-compose run test-unit`
+
