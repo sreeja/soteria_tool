@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+
+  soteria:
+    build: .
+    volumes: 
+      - .:/usr/src/app
+
+    entrypoint: ["python3", "soteria.py"]
+
+  test-unit:
+    build: .
+    command: py.test -s tests --cov --cov-config .coveragerc --cov-report term-missing
+    volumes:
+      - .:/usr/src/app
+    network_mode: bridge
+
+    # entrypoint: ["bash"]
+ 

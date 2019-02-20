@@ -1,0 +1,35 @@
+//initial datatype, variable, axiom and function declarations go here
+//me is a special variable of type ReplicaID
+type ReplicaID;
+const unique me:ReplicaID;
+
+@invariant
+//write an invariant function as a single function
+//returns bool
+//all variables should be present here exactly once and should have the same name as its declaration
+
+function inv(var1:type1, var2:type2, .....) returns(bool)
+{ }
+
+@gteq
+//write the gteq function as one single function for all variables together
+//all variables should be present in this function, as pairs
+//naming of variables should be var11, var12....
+//returns bool
+
+function gteq(var11:type1, var12:type1, var21:type1, var22:type1, .....) returns(bool)
+
+@merge
+//write the merge as a procedure 
+//all variables declared should be present here exactly once
+//naming of variables should be var11, var21....
+procedure merge(var11:type1, var21:type2, .....)
+modifies var1, var2, ... // should contain all variables declared
+requires ..... // indicate the set of reachable states
+ensures ..... // encode what the procedure actually does
+{
+    //procedure body goes here
+}
+
+//provide the list of operations as procedures
+//operations can use `me` to identify the replica they are working on

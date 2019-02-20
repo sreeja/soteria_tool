@@ -1,0 +1,17 @@
+*** MODEL
+%lbl%@1 -> false
+%lbl%+0 -> true
+%lbl%+2 -> true
+counter@@0 -> 0
+counter@0 -> (- 1)
+inv -> {
+  0 -> true
+  (- 1) -> false
+  else -> true
+}
+tickleBool -> {
+  true -> true
+  false -> true
+  else -> true
+}
+*** END_MODEL

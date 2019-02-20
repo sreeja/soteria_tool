@@ -1,0 +1,56 @@
+*** MODEL
+%lbl%@3133 -> true
+%lbl%@3206 -> true
+%lbl%@3259 -> false
+%lbl%+1171 -> true
+%lbl%+2335 -> true
+_auction_identifier -> 0
+_bid_identifier -> 718
+_value -> 1
+a@@21!21!17 -> 0
+auction_active@@0 -> |T@[Int]Bool!val!2|
+auction_closed@@0 -> |T@[Int]Bool!val!3|
+auction_prep@@0 -> |T@[Int]Bool!val!1|
+auction_winner@@0 -> |T@[Int]Int!val!0|
+auctions@@0 -> |T@[Int]Bool!val!0|
+b@@11!20!18 -> 718
+bid_amount@@0 -> |T@[Int]Int!val!2|
+bid_amount@0@@0 -> |T@[Int]Int!val!3|
+bid_auction@@0 -> |T@[Int]Int!val!1|
+bid_auction@0@@0 -> |T@[Int]Int!val!4|
+bids@@0 -> |T@[Int]Bool!val!4|
+bids@0@@0 -> |T@[Int]Bool!val!5|
+na -> 1
+nb -> 719
+null -> 4
+Select_[$int]$int -> {
+  |T@[Int]Int!val!1| 718 -> 0
+  |T@[Int]Int!val!2| 718 -> 1
+  |T@[Int]Int!val!4| 718 -> 0
+  |T@[Int]Int!val!3| 718 -> 1
+  |T@[Int]Int!val!0| 0 -> 4
+  else -> 0
+}
+inv -> {
+  |T@[Int]Bool!val!0| |T@[Int]Bool!val!1| |T@[Int]Bool!val!2| |T@[Int]Bool!val!3| |T@[Int]Int!val!0| |T@[Int]Bool!val!4| |T@[Int]Int!val!1| |T@[Int]Int!val!2| -> true
+  else -> true
+}
+tickleBool -> {
+  true -> true
+  false -> true
+  else -> true
+}
+Select_[$int]$bool -> {
+  |T@[Int]Bool!val!0| 0 -> true
+  |T@[Int]Bool!val!4| 718 -> false
+  |T@[Int]Bool!val!1| 0 -> true
+  |T@[Int]Bool!val!2| 0 -> true
+  |T@[Int]Bool!val!3| 0 -> false
+  |T@[Int]Bool!val!5| 718 -> true
+  else -> true
+}
+a@@17!17!15 -> {
+  718 -> 0
+  else -> 0
+}
+*** END_MODEL

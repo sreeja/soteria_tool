@@ -1,0 +1,33 @@
+*** MODEL
+%lbl%@7 -> false
+%lbl%+13 -> true
+%lbl%+4 -> true
+%lbl%+8 -> true
+%lbl%+9 -> true
+boxes@@0 -> |T@[Int]Bool!val!1|
+boxes@0 -> |T@[Int]Bool!val!0|
+boxes@1 -> |T@[Int]Bool!val!3|
+boxes1@@0 -> |T@[Int]Bool!val!2|
+flag@@0 -> false
+flag@0 -> false
+flag1@@0 -> false
+k@@1!8!2 -> 0
+me -> 719
+nr -> 720
+tickleBool -> {
+  true -> true
+  false -> true
+  else -> true
+}
+Select_[$int]$bool -> {
+  |T@[Int]Bool!val!1| 0 -> false
+  |T@[Int]Bool!val!2| 0 -> true
+  |T@[Int]Bool!val!3| 0 -> true
+  |T@[Int]Bool!val!0| 0 -> false
+  else -> true
+}
+Store_[$int]$bool -> {
+  |T@[Int]Bool!val!0| 0 true -> |T@[Int]Bool!val!3|
+  else -> |T@[Int]Bool!val!3|
+}
+*** END_MODEL

@@ -1,0 +1,37 @@
+*** MODEL
+$mv_state_const -> 5
+%lbl%@3 -> false
+%lbl%+0 -> true
+%lbl%+4 -> true
+_value -> 797
+gcounter@@0 -> |T@[Int]Int!val!0|
+gcounter@0 -> |T@[Int]Int!val!1|
+me -> 719
+nr -> 720
+q@max@@0 -> (- 635)
+r@@4!8!2 -> 719
+inv -> {
+  |T@[Int]Int!val!0| -> true
+  else -> true
+}
+Select_[$int]$int -> {
+  |T@[Int]Int!val!0| 719 -> (- 715)
+  |T@[Int]Int!val!1| 719 -> 82
+  else -> (- 715)
+}
+$mv_state -> {
+  5 0 -> true
+  else -> true
+}
+tickleBool -> {
+  true -> true
+  false -> true
+  else -> true
+}
+*** STATE <initial>
+  gcounter -> |T@[Int]Int!val!0|
+*** END_STATE
+*** STATE after
+  gcounter -> |T@[Int]Int!val!1|
+*** END_STATE
+*** END_MODEL

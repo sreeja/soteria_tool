@@ -1,0 +1,212 @@
+*** MODEL
+$mv_state_const -> 18
+%lbl%@3 -> false
+%lbl%+0 -> true
+%lbl%+4 -> true
+_auction_identifier -> 1573
+active -> 1bv2
+amount -> T@U!val!5
+auction -> T@U!val!4
+auction_identifier -> 1573
+auctions@@3 -> T@U!val!6
+auctions@0 -> T@U!val!8
+b@@13!27!8 -> 531
+b@@15!23!9 -> 531
+bid_identifier -> 533
+bids@@6 -> T@U!val!7
+boolType -> T@T!val!2
+bv2Type -> T@T!val!5
+closed -> 2bv2
+intType -> T@T!val!0
+invalid -> 0bv2
+MapType1Type -> T@T!val!10
+MapType2Type -> T@T!val!11
+na -> 2370
+nb -> 534
+none -> 11
+null -> 12
+placed -> T@U!val!3
+realType -> T@T!val!1
+reg -> T@U!val!0
+rmodeType -> T@T!val!3
+status -> T@U!val!1
+TType -> T@T!val!12
+value -> 6022
+winner -> T@U!val!2
+bv2_2_U -> {
+  1bv2 -> T@U!val!14
+  2bv2 -> T@U!val!23
+  else -> T@U!val!14
+}
+$mv_state -> {
+  18 0 -> true
+  else -> true
+}
+U_2_bv2 -> {
+  T@U!val!14 -> 1bv2
+  T@U!val!23 -> 2bv2
+  else -> 1bv2
+}
+[2] -> {
+  T@U!val!7 533 -> T@U!val!10
+  T@U!val!7 531 -> T@U!val!19
+  T@U!val!6 1573 -> T@U!val!21
+  T@U!val!8 1573 -> T@U!val!22
+  T@U!val!7 532 -> T@U!val!25
+  T@U!val!10 T@U!val!3 -> false
+  T@U!val!10 T@U!val!4 -> 11
+  T@U!val!10 T@U!val!5 -> 0
+  T@U!val!19 T@U!val!3 -> true
+  T@U!val!19 T@U!val!4 -> 1573
+  T@U!val!19 T@U!val!5 -> 1
+  T@U!val!25 T@U!val!3 -> true
+  T@U!val!25 T@U!val!4 -> 1573
+  T@U!val!25 T@U!val!5 -> 6021
+  T@U!val!21 T@U!val!2 -> 12
+  T@U!val!21 T@U!val!0 -> true
+  T@U!val!21 T@U!val!1 -> T@U!val!14
+  T@U!val!22 T@U!val!0 -> true
+  T@U!val!22 T@U!val!1 -> T@U!val!23
+  T@U!val!22 T@U!val!2 -> 532
+  else -> T@U!val!10
+}
+Ctor -> {
+  T@T!val!0 -> 0
+  T@T!val!1 -> 1
+  T@T!val!2 -> 2
+  T@T!val!3 -> 3
+  T@T!val!5 -> 5
+  T@T!val!10 -> 8
+  T@T!val!11 -> 9
+  T@T!val!12 -> 10
+  T@T!val!4 -> 4
+  T@T!val!6 -> 4
+  T@T!val!7 -> 4
+  T@T!val!8 -> 6
+  T@T!val!9 -> 6
+  T@T!val!13 -> 7
+  T@T!val!14 -> 7
+  else -> 4
+}
+tickleBool -> {
+  true -> true
+  false -> true
+  else -> true
+}
+U_2_bool -> {
+  false -> false
+  true -> true
+  else -> false
+}
+BfieldTypeInv0 -> {
+  T@T!val!8 -> T@T!val!2
+  T@T!val!9 -> T@T!val!0
+  else -> T@T!val!2
+}
+BfieldType -> {
+  T@T!val!2 -> T@T!val!8
+  T@T!val!0 -> T@T!val!9
+  else -> T@T!val!8
+}
+U_2_int -> {
+  11 -> 11
+  0 -> 0
+  12 -> 12
+  1573 -> 1573
+  1 -> 1
+  533 -> 533
+  531 -> 531
+  532 -> 532
+  6021 -> 6021
+  else -> 11
+}
+bool_2_U -> {
+  false -> false
+  true -> true
+  else -> false
+}
+MapType0TypeInv0 -> {
+  T@T!val!13 -> T@T!val!0
+  T@T!val!14 -> T@T!val!0
+  else -> T@T!val!0
+}
+AfieldTypeInv0 -> {
+  T@T!val!4 -> T@T!val!2
+  T@T!val!6 -> T@T!val!5
+  T@T!val!7 -> T@T!val!0
+  else -> T@T!val!2
+}
+get_winner -> {
+  1573 T@U!val!7 -> 532
+  else -> 532
+}
+int_2_U -> {
+  11 -> 11
+  12 -> 12
+  533 -> 533
+  1573 -> 1573
+  531 -> 531
+  0 -> 0
+  1 -> 1
+  532 -> 532
+  6021 -> 6021
+  else -> 11
+}
+inv -> {
+  T@U!val!6 T@U!val!7 -> true
+  else -> true
+}
+MapType0Type -> {
+  T@T!val!0 T@T!val!11 -> T@T!val!13
+  T@T!val!0 T@T!val!10 -> T@T!val!14
+  else -> T@T!val!13
+}
+AfieldType -> {
+  T@T!val!2 -> T@T!val!4
+  T@T!val!5 -> T@T!val!6
+  T@T!val!0 -> T@T!val!7
+  else -> T@T!val!4
+}
+MapType0TypeInv1 -> {
+  T@T!val!13 -> T@T!val!11
+  T@T!val!14 -> T@T!val!10
+  else -> T@T!val!11
+}
+type -> {
+  T@U!val!0 -> T@T!val!4
+  T@U!val!1 -> T@T!val!6
+  T@U!val!2 -> T@T!val!7
+  T@U!val!3 -> T@T!val!8
+  T@U!val!4 -> T@T!val!9
+  T@U!val!5 -> T@T!val!9
+  T@U!val!6 -> T@T!val!13
+  T@U!val!7 -> T@T!val!14
+  T@U!val!8 -> T@T!val!13
+  false -> T@T!val!2
+  true -> T@T!val!2
+  11 -> T@T!val!0
+  0 -> T@T!val!0
+  1573 -> T@T!val!0
+  533 -> T@T!val!0
+  T@U!val!10 -> T@T!val!10
+  T@U!val!21 -> T@T!val!11
+  12 -> T@T!val!0
+  T@U!val!14 -> T@T!val!5
+  1 -> T@T!val!0
+  531 -> T@T!val!0
+  T@U!val!19 -> T@T!val!10
+  T@U!val!23 -> T@T!val!5
+  T@U!val!22 -> T@T!val!11
+  532 -> T@T!val!0
+  T@U!val!25 -> T@T!val!10
+  6021 -> T@T!val!0
+  else -> T@T!val!0
+}
+*** STATE <initial>
+  auctions -> T@U!val!6
+  bids -> T@U!val!7
+*** END_STATE
+*** STATE after
+  auctions -> T@U!val!8
+*** END_STATE
+*** END_MODEL

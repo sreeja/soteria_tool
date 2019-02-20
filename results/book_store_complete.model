@@ -1,0 +1,898 @@
+*** MODEL
+%lbl%@10361 -> false
+%lbl%+2399 -> true
+%lbl%+2401 -> true
+%lbl%+2405 -> true
+%lbl%+8911 -> true
+%lbl%+8915 -> true
+b@@16!42!14 -> 7066
+book@0 -> 7066
+BookStore@@1 -> T@U!val!25
+BookStore@0 -> T@U!val!23
+BookStore@1 -> T@U!val!22
+BookStore@2 -> T@U!val!23
+boolType -> T@T!val!2
+cancelled -> T@U!val!7
+created -> T@U!val!5
+id -> T@U!val!11
+id@@0 -> T@U!val!14
+id@@1 -> T@U!val!17
+id@@2 -> T@U!val!20
+id@@3 -> T@U!val!24
+intType -> T@T!val!0
+items -> T@U!val!4
+MapType1Type -> T@T!val!7
+me -> T@U!val!0
+N -> T@U!val!2
+nb -> 7066
+OrderIdType -> T@T!val!6
+P -> T@U!val!1
+placed -> T@U!val!6
+processed -> T@U!val!8
+realType -> T@T!val!1
+ReplicaIDType -> T@T!val!3
+SelectorType -> T@T!val!4
+TType -> T@T!val!8
+user -> T@U!val!3
+UserIdType -> T@T!val!5
+UserOrders@@5 -> T@U!val!10
+UserOrders@0 -> T@U!val!9
+UserOrders@0@@0 -> T@U!val!13
+UserOrders@0@@1 -> T@U!val!16
+UserOrders@0@@2 -> T@U!val!19
+UserOrders@0@@3 -> T@U!val!28
+usr -> T@U!val!12
+usr@@0 -> T@U!val!15
+usr@@1 -> T@U!val!18
+usr@@2 -> T@U!val!21
+[2] -> {
+  T@U!val!10 T@U!val!24 -> T@U!val!26
+  T@U!val!28 T@U!val!24 -> T@U!val!29
+  T@U!val!30 7066 -> (- 788)
+  T@U!val!23 7066 -> T@U!val!33
+  T@U!val!33 T@U!val!2 -> T@U!val!34
+  T@U!val!34 T@U!val!0 -> (- 1109)
+  T@U!val!25 7066 -> T@U!val!36
+  T@U!val!36 T@U!val!2 -> T@U!val!37
+  T@U!val!37 T@U!val!0 -> (- 320)
+  T@U!val!36 T@U!val!1 -> T@U!val!40
+  T@U!val!40 T@U!val!0 -> (- 416)
+  T@U!val!33 T@U!val!1 -> T@U!val!42
+  T@U!val!42 T@U!val!0 -> (- 416)
+  T@U!val!26 T@U!val!6 -> true
+  T@U!val!26 T@U!val!8 -> false
+  T@U!val!26 T@U!val!7 -> false
+  T@U!val!29 T@U!val!4 -> T@U!val!30
+  T@U!val!26 T@U!val!4 -> T@U!val!30
+  T@U!val!26 T@U!val!5 -> true
+  T@U!val!29 T@U!val!8 -> true
+  T@U!val!29 T@U!val!5 -> true
+  else -> (- 416)
+}
+U_2_bool -> {
+  false -> false
+  true -> true
+  else -> false
+}
+Ctor -> {
+  T@T!val!0 -> 0
+  T@T!val!1 -> 1
+  T@T!val!2 -> 2
+  T@T!val!3 -> 3
+  T@T!val!4 -> 4
+  T@T!val!5 -> 6
+  T@T!val!6 -> 8
+  T@T!val!7 -> 9
+  T@T!val!8 -> 10
+  T@T!val!9 -> 5
+  T@T!val!11 -> 5
+  T@T!val!12 -> 5
+  T@T!val!10 -> 7
+  T@T!val!13 -> 7
+  T@T!val!14 -> 7
+  T@T!val!15 -> 7
+  T@T!val!16 -> 7
+  else -> 7
+}
+[3:=] -> {
+  T@U!val!26 T@U!val!8 true -> T@U!val!29
+  T@U!val!10 T@U!val!24 T@U!val!29 -> T@U!val!28
+  else -> T@U!val!29
+}
+tickleBool -> {
+  true -> true
+  false -> true
+  else -> true
+}
+bool_2_U -> {
+  true -> true
+  false -> false
+  else -> true
+}
+FieldType -> {
+  T@T!val!5 -> T@T!val!9
+  T@T!val!10 -> T@T!val!11
+  T@T!val!2 -> T@T!val!12
+  else -> T@T!val!9
+}
+U_2_int -> {
+  (- 788) -> (- 788)
+  (- 1109) -> (- 1109)
+  (- 320) -> (- 320)
+  (- 416) -> (- 416)
+  7066 -> 7066
+  else -> (- 788)
+}
+MapType0TypeInv0 -> {
+  T@T!val!10 -> T@T!val!0
+  T@T!val!13 -> T@T!val!6
+  T@T!val!14 -> T@T!val!3
+  T@T!val!15 -> T@T!val!4
+  T@T!val!16 -> T@T!val!0
+  else -> T@T!val!0
+}
+FieldTypeInv0 -> {
+  T@T!val!9 -> T@T!val!5
+  T@T!val!11 -> T@T!val!10
+  T@T!val!12 -> T@T!val!2
+  else -> T@T!val!5
+}
+int_2_U -> {
+  7066 -> 7066
+  (- 320) -> (- 320)
+  (- 788) -> (- 788)
+  (- 1109) -> (- 1109)
+  (- 416) -> (- 416)
+  else -> 7066
+}
+MapType0Type -> {
+  T@T!val!0 T@T!val!0 -> T@T!val!10
+  T@T!val!6 T@T!val!7 -> T@T!val!13
+  T@T!val!3 T@T!val!0 -> T@T!val!14
+  T@T!val!4 T@T!val!14 -> T@T!val!15
+  T@T!val!0 T@T!val!15 -> T@T!val!16
+  else -> T@T!val!10
+}
+MapType0TypeInv1 -> {
+  T@T!val!10 -> T@T!val!0
+  T@T!val!13 -> T@T!val!7
+  T@T!val!14 -> T@T!val!0
+  T@T!val!15 -> T@T!val!14
+  T@T!val!16 -> T@T!val!15
+  else -> T@T!val!0
+}
+type -> {
+  T@U!val!0 -> T@T!val!3
+  T@U!val!1 -> T@T!val!4
+  T@U!val!2 -> T@T!val!4
+  T@U!val!3 -> T@T!val!9
+  T@U!val!4 -> T@T!val!11
+  T@U!val!5 -> T@T!val!12
+  T@U!val!6 -> T@T!val!12
+  T@U!val!7 -> T@T!val!12
+  T@U!val!8 -> T@T!val!12
+  T@U!val!9 -> T@T!val!13
+  T@U!val!10 -> T@T!val!13
+  T@U!val!11 -> T@T!val!6
+  T@U!val!12 -> T@T!val!5
+  T@U!val!13 -> T@T!val!13
+  T@U!val!14 -> T@T!val!6
+  T@U!val!15 -> T@T!val!5
+  T@U!val!16 -> T@T!val!13
+  T@U!val!17 -> T@T!val!6
+  T@U!val!18 -> T@T!val!5
+  T@U!val!19 -> T@T!val!13
+  T@U!val!20 -> T@T!val!6
+  T@U!val!21 -> T@T!val!5
+  T@U!val!22 -> T@T!val!16
+  T@U!val!23 -> T@T!val!16
+  T@U!val!28 -> T@T!val!13
+  T@U!val!24 -> T@T!val!6
+  T@U!val!25 -> T@T!val!16
+  false -> T@T!val!2
+  T@U!val!26 -> T@T!val!7
+  T@U!val!29 -> T@T!val!7
+  true -> T@T!val!2
+  (- 320) -> T@T!val!0
+  (- 788) -> T@T!val!0
+  (- 1109) -> T@T!val!0
+  T@U!val!37 -> T@T!val!14
+  T@U!val!30 -> T@T!val!10
+  7066 -> T@T!val!0
+  T@U!val!36 -> T@T!val!15
+  T@U!val!34 -> T@T!val!14
+  T@U!val!33 -> T@T!val!15
+  T@U!val!40 -> T@T!val!14
+  (- 416) -> T@T!val!0
+  T@U!val!42 -> T@T!val!14
+  else -> T@T!val!13
+}
+*** END_MODEL
+*** MODEL
+%lbl%@10156 -> true
+%lbl%@10219 -> true
+%lbl%@10258 -> true
+%lbl%@10289 -> false
+%lbl%@10361 -> true
+%lbl%+2399 -> true
+%lbl%+2401 -> true
+%lbl%+2403 -> true
+%lbl%+8915 -> true
+b@@22!45!20 -> 7065
+b@@28!50!25 -> 0
+book@0 -> 7065
+book@1 -> 7066
+BookStore@@1 -> T@U!val!24
+BookStore@0 -> T@U!val!22
+BookStore@1 -> T@U!val!38
+BookStore@2 -> T@U!val!25
+boolType -> T@T!val!2
+cancelled -> T@U!val!7
+created -> T@U!val!5
+id -> T@U!val!11
+id@@0 -> T@U!val!14
+id@@1 -> T@U!val!17
+id@@2 -> T@U!val!20
+id@@3 -> T@U!val!23
+intType -> T@T!val!0
+items -> T@U!val!4
+MapType1Type -> T@T!val!7
+me -> T@U!val!0
+N -> T@U!val!2
+nb -> 7066
+o@@16!47!19 -> T@U!val!23
+OrderIdType -> T@T!val!6
+P -> T@U!val!1
+placed -> T@U!val!6
+processed -> T@U!val!8
+realType -> T@T!val!1
+ReplicaIDType -> T@T!val!3
+SelectorType -> T@T!val!4
+TType -> T@T!val!8
+user -> T@U!val!3
+UserIdType -> T@T!val!5
+UserOrders@@5 -> T@U!val!10
+UserOrders@0 -> T@U!val!9
+UserOrders@0@@0 -> T@U!val!13
+UserOrders@0@@1 -> T@U!val!16
+UserOrders@0@@2 -> T@U!val!19
+UserOrders@0@@3 -> T@U!val!28
+usr -> T@U!val!12
+usr@@0 -> T@U!val!15
+usr@@1 -> T@U!val!18
+usr@@2 -> T@U!val!21
+[2] -> {
+  T@U!val!10 T@U!val!23 -> T@U!val!26
+  T@U!val!28 T@U!val!23 -> T@U!val!29
+  T@U!val!30 7065 -> (- 788)
+  T@U!val!52 T@U!val!2 -> T@U!val!34
+  T@U!val!34 T@U!val!0 -> 6554
+  T@U!val!56 T@U!val!2 -> T@U!val!37
+  T@U!val!24 0 -> T@U!val!40
+  T@U!val!40 T@U!val!2 -> T@U!val!41
+  T@U!val!41 T@U!val!0 -> (- 122)
+  T@U!val!30 0 -> (- 777)
+  T@U!val!38 0 -> T@U!val!44
+  T@U!val!44 T@U!val!2 -> T@U!val!45
+  T@U!val!45 T@U!val!0 -> (- 900)
+  T@U!val!37 T@U!val!0 -> 5766
+  T@U!val!24 7065 -> T@U!val!49
+  T@U!val!49 T@U!val!1 -> T@U!val!50
+  T@U!val!50 T@U!val!0 -> 12853
+  T@U!val!49 T@U!val!2 -> T@U!val!51
+  T@U!val!51 T@U!val!0 -> 6554
+  T@U!val!22 7065 -> T@U!val!52
+  T@U!val!52 T@U!val!1 -> T@U!val!55
+  T@U!val!40 T@U!val!1 -> T@U!val!53
+  T@U!val!53 T@U!val!0 -> (- 899)
+  T@U!val!22 0 -> T@U!val!44
+  T@U!val!55 T@U!val!0 -> 12853
+  T@U!val!38 7065 -> T@U!val!56
+  T@U!val!56 T@U!val!1 -> T@U!val!55
+  T@U!val!44 T@U!val!1 -> T@U!val!57
+  T@U!val!57 T@U!val!0 -> (- 899)
+  T@U!val!26 T@U!val!6 -> true
+  T@U!val!26 T@U!val!8 -> false
+  T@U!val!26 T@U!val!7 -> false
+  T@U!val!29 T@U!val!4 -> T@U!val!30
+  T@U!val!29 T@U!val!3 -> T@U!val!31
+  T@U!val!26 T@U!val!3 -> T@U!val!31
+  T@U!val!26 T@U!val!4 -> T@U!val!30
+  T@U!val!26 T@U!val!5 -> true
+  T@U!val!29 T@U!val!8 -> true
+  T@U!val!29 T@U!val!5 -> true
+  T@U!val!29 T@U!val!6 -> true
+  T@U!val!29 T@U!val!7 -> false
+  else -> 6554
+}
+U_2_bool -> {
+  false -> false
+  true -> true
+  else -> false
+}
+Ctor -> {
+  T@T!val!0 -> 0
+  T@T!val!1 -> 1
+  T@T!val!2 -> 2
+  T@T!val!3 -> 3
+  T@T!val!4 -> 4
+  T@T!val!5 -> 6
+  T@T!val!6 -> 8
+  T@T!val!7 -> 9
+  T@T!val!8 -> 10
+  T@T!val!9 -> 5
+  T@T!val!11 -> 5
+  T@T!val!12 -> 5
+  T@T!val!10 -> 7
+  T@T!val!13 -> 7
+  T@T!val!14 -> 7
+  T@T!val!15 -> 7
+  T@T!val!16 -> 7
+  else -> 7
+}
+[3:=] -> {
+  T@U!val!26 T@U!val!8 true -> T@U!val!29
+  T@U!val!10 T@U!val!23 T@U!val!29 -> T@U!val!28
+  T@U!val!34 T@U!val!0 5766 -> T@U!val!37
+  T@U!val!52 T@U!val!2 T@U!val!37 -> T@U!val!56
+  T@U!val!22 7065 T@U!val!56 -> T@U!val!38
+  else -> T@U!val!29
+}
+tickleBool -> {
+  true -> true
+  false -> true
+  else -> true
+}
+bool_2_U -> {
+  true -> true
+  false -> false
+  else -> true
+}
+FieldType -> {
+  T@T!val!5 -> T@T!val!9
+  T@T!val!10 -> T@T!val!11
+  T@T!val!2 -> T@T!val!12
+  else -> T@T!val!9
+}
+U_2_int -> {
+  (- 788) -> (- 788)
+  6554 -> 6554
+  (- 122) -> (- 122)
+  (- 777) -> (- 777)
+  (- 900) -> (- 900)
+  5766 -> 5766
+  12853 -> 12853
+  7065 -> 7065
+  (- 899) -> (- 899)
+  0 -> 0
+  else -> (- 788)
+}
+MapType0TypeInv0 -> {
+  T@T!val!10 -> T@T!val!0
+  T@T!val!13 -> T@T!val!6
+  T@T!val!14 -> T@T!val!3
+  T@T!val!15 -> T@T!val!4
+  T@T!val!16 -> T@T!val!0
+  else -> T@T!val!0
+}
+FieldTypeInv0 -> {
+  T@T!val!9 -> T@T!val!5
+  T@T!val!11 -> T@T!val!10
+  T@T!val!12 -> T@T!val!2
+  else -> T@T!val!5
+}
+int_2_U -> {
+  7065 -> 7065
+  0 -> 0
+  6554 -> 6554
+  5766 -> 5766
+  12853 -> 12853
+  (- 788) -> (- 788)
+  (- 777) -> (- 777)
+  (- 122) -> (- 122)
+  (- 900) -> (- 900)
+  (- 899) -> (- 899)
+  else -> 7065
+}
+MapType0Type -> {
+  T@T!val!0 T@T!val!0 -> T@T!val!10
+  T@T!val!6 T@T!val!7 -> T@T!val!13
+  T@T!val!3 T@T!val!0 -> T@T!val!14
+  T@T!val!4 T@T!val!14 -> T@T!val!15
+  T@T!val!0 T@T!val!15 -> T@T!val!16
+  else -> T@T!val!10
+}
+MapType0TypeInv1 -> {
+  T@T!val!10 -> T@T!val!0
+  T@T!val!13 -> T@T!val!7
+  T@T!val!14 -> T@T!val!0
+  T@T!val!15 -> T@T!val!14
+  T@T!val!16 -> T@T!val!15
+  else -> T@T!val!0
+}
+type -> {
+  T@U!val!0 -> T@T!val!3
+  T@U!val!1 -> T@T!val!4
+  T@U!val!2 -> T@T!val!4
+  T@U!val!3 -> T@T!val!9
+  T@U!val!4 -> T@T!val!11
+  T@U!val!5 -> T@T!val!12
+  T@U!val!6 -> T@T!val!12
+  T@U!val!7 -> T@T!val!12
+  T@U!val!8 -> T@T!val!12
+  T@U!val!9 -> T@T!val!13
+  T@U!val!10 -> T@T!val!13
+  T@U!val!11 -> T@T!val!6
+  T@U!val!12 -> T@T!val!5
+  T@U!val!13 -> T@T!val!13
+  T@U!val!14 -> T@T!val!6
+  T@U!val!15 -> T@T!val!5
+  T@U!val!16 -> T@T!val!13
+  T@U!val!17 -> T@T!val!6
+  T@U!val!18 -> T@T!val!5
+  T@U!val!19 -> T@T!val!13
+  T@U!val!20 -> T@T!val!6
+  T@U!val!21 -> T@T!val!5
+  T@U!val!38 -> T@T!val!16
+  T@U!val!22 -> T@T!val!16
+  T@U!val!28 -> T@T!val!13
+  T@U!val!23 -> T@T!val!6
+  T@U!val!24 -> T@T!val!16
+  T@U!val!25 -> T@T!val!16
+  false -> T@T!val!2
+  T@U!val!26 -> T@T!val!7
+  T@U!val!29 -> T@T!val!7
+  true -> T@T!val!2
+  T@U!val!37 -> T@T!val!14
+  5766 -> T@T!val!0
+  T@U!val!34 -> T@T!val!14
+  T@U!val!30 -> T@T!val!10
+  6554 -> T@T!val!0
+  12853 -> T@T!val!0
+  (- 788) -> T@T!val!0
+  T@U!val!31 -> T@T!val!5
+  7065 -> T@T!val!0
+  T@U!val!51 -> T@T!val!14
+  T@U!val!50 -> T@T!val!14
+  T@U!val!49 -> T@T!val!15
+  T@U!val!52 -> T@T!val!15
+  (- 777) -> T@T!val!0
+  (- 122) -> T@T!val!0
+  (- 900) -> T@T!val!0
+  0 -> T@T!val!0
+  T@U!val!41 -> T@T!val!14
+  T@U!val!45 -> T@T!val!14
+  T@U!val!40 -> T@T!val!15
+  T@U!val!44 -> T@T!val!15
+  T@U!val!55 -> T@T!val!14
+  T@U!val!56 -> T@T!val!15
+  T@U!val!53 -> T@T!val!14
+  (- 899) -> T@T!val!0
+  T@U!val!57 -> T@T!val!14
+  else -> T@T!val!0
+}
+*** END_MODEL
+*** MODEL
+%lbl%@10156 -> false
+%lbl%@10361 -> true
+%lbl%+2399 -> true
+%lbl%+2401 -> true
+%lbl%+2403 -> true
+%lbl%+8915 -> true
+b@@22!45!20 -> 12
+book@0 -> 7065
+BookStore@@1 -> T@U!val!24
+BookStore@0 -> T@U!val!22
+BookStore@1 -> T@U!val!41
+BookStore@2 -> T@U!val!25
+boolType -> T@T!val!2
+cancelled -> T@U!val!7
+created -> T@U!val!5
+id -> T@U!val!11
+id@@0 -> T@U!val!14
+id@@1 -> T@U!val!17
+id@@2 -> T@U!val!20
+id@@3 -> T@U!val!23
+intType -> T@T!val!0
+items -> T@U!val!4
+MapType1Type -> T@T!val!7
+me -> T@U!val!0
+N -> T@U!val!2
+nb -> 7066
+o@@16!47!19 -> T@U!val!23
+OrderIdType -> T@T!val!6
+P -> T@U!val!1
+placed -> T@U!val!6
+processed -> T@U!val!8
+realType -> T@T!val!1
+ReplicaIDType -> T@T!val!3
+SelectorType -> T@T!val!4
+TType -> T@T!val!8
+user -> T@U!val!3
+UserIdType -> T@T!val!5
+UserOrders@@5 -> T@U!val!10
+UserOrders@0 -> T@U!val!9
+UserOrders@0@@0 -> T@U!val!13
+UserOrders@0@@1 -> T@U!val!16
+UserOrders@0@@2 -> T@U!val!19
+UserOrders@0@@3 -> T@U!val!28
+usr -> T@U!val!12
+usr@@0 -> T@U!val!15
+usr@@1 -> T@U!val!18
+usr@@2 -> T@U!val!21
+[2] -> {
+  T@U!val!10 T@U!val!23 -> T@U!val!26
+  T@U!val!28 T@U!val!23 -> T@U!val!29
+  T@U!val!30 12 -> (- 979)
+  T@U!val!22 7065 -> T@U!val!35
+  T@U!val!35 T@U!val!2 -> T@U!val!36
+  T@U!val!36 T@U!val!0 -> (- 7045)
+  T@U!val!30 7065 -> (- 788)
+  T@U!val!41 7065 -> T@U!val!42
+  T@U!val!42 T@U!val!2 -> T@U!val!40
+  T@U!val!24 7065 -> T@U!val!43
+  T@U!val!43 T@U!val!2 -> T@U!val!44
+  T@U!val!44 T@U!val!0 -> (- 320)
+  T@U!val!40 T@U!val!0 -> (- 7833)
+  T@U!val!43 T@U!val!1 -> T@U!val!47
+  T@U!val!47 T@U!val!0 -> (- 1108)
+  T@U!val!35 T@U!val!1 -> T@U!val!49
+  T@U!val!49 T@U!val!0 -> (- 1108)
+  T@U!val!24 12 -> T@U!val!50
+  T@U!val!50 T@U!val!2 -> T@U!val!51
+  T@U!val!51 T@U!val!0 -> 244
+  T@U!val!50 T@U!val!1 -> T@U!val!53
+  T@U!val!53 T@U!val!0 -> 824
+  T@U!val!22 12 -> T@U!val!54
+  T@U!val!54 T@U!val!1 -> T@U!val!55
+  T@U!val!55 T@U!val!0 -> 824
+  T@U!val!26 T@U!val!6 -> true
+  T@U!val!26 T@U!val!8 -> false
+  T@U!val!26 T@U!val!7 -> false
+  T@U!val!29 T@U!val!4 -> T@U!val!30
+  T@U!val!29 T@U!val!3 -> T@U!val!31
+  T@U!val!26 T@U!val!3 -> T@U!val!31
+  T@U!val!26 T@U!val!4 -> T@U!val!30
+  T@U!val!26 T@U!val!5 -> true
+  T@U!val!29 T@U!val!8 -> true
+  T@U!val!29 T@U!val!5 -> true
+  T@U!val!29 T@U!val!6 -> true
+  T@U!val!29 T@U!val!7 -> false
+  else -> (- 1108)
+}
+U_2_bool -> {
+  false -> false
+  true -> true
+  else -> false
+}
+Ctor -> {
+  T@T!val!0 -> 0
+  T@T!val!1 -> 1
+  T@T!val!2 -> 2
+  T@T!val!3 -> 3
+  T@T!val!4 -> 4
+  T@T!val!5 -> 6
+  T@T!val!6 -> 8
+  T@T!val!7 -> 9
+  T@T!val!8 -> 10
+  T@T!val!9 -> 5
+  T@T!val!11 -> 5
+  T@T!val!12 -> 5
+  T@T!val!10 -> 7
+  T@T!val!13 -> 7
+  T@T!val!14 -> 7
+  T@T!val!15 -> 7
+  T@T!val!16 -> 7
+  else -> 7
+}
+[3:=] -> {
+  T@U!val!26 T@U!val!8 true -> T@U!val!29
+  T@U!val!10 T@U!val!23 T@U!val!29 -> T@U!val!28
+  T@U!val!36 T@U!val!0 (- 7833) -> T@U!val!40
+  T@U!val!35 T@U!val!2 T@U!val!40 -> T@U!val!42
+  T@U!val!22 7065 T@U!val!42 -> T@U!val!41
+  else -> T@U!val!29
+}
+tickleBool -> {
+  true -> true
+  false -> true
+  else -> true
+}
+bool_2_U -> {
+  true -> true
+  false -> false
+  else -> true
+}
+FieldType -> {
+  T@T!val!5 -> T@T!val!9
+  T@T!val!10 -> T@T!val!11
+  T@T!val!2 -> T@T!val!12
+  else -> T@T!val!9
+}
+U_2_int -> {
+  (- 979) -> (- 979)
+  (- 7045) -> (- 7045)
+  (- 788) -> (- 788)
+  (- 320) -> (- 320)
+  7065 -> 7065
+  (- 7833) -> (- 7833)
+  (- 1108) -> (- 1108)
+  244 -> 244
+  12 -> 12
+  824 -> 824
+  else -> (- 979)
+}
+MapType0TypeInv0 -> {
+  T@T!val!10 -> T@T!val!0
+  T@T!val!13 -> T@T!val!6
+  T@T!val!14 -> T@T!val!3
+  T@T!val!15 -> T@T!val!4
+  T@T!val!16 -> T@T!val!0
+  else -> T@T!val!0
+}
+FieldTypeInv0 -> {
+  T@T!val!9 -> T@T!val!5
+  T@T!val!11 -> T@T!val!10
+  T@T!val!12 -> T@T!val!2
+  else -> T@T!val!5
+}
+int_2_U -> {
+  12 -> 12
+  7065 -> 7065
+  (- 788) -> (- 788)
+  (- 7045) -> (- 7045)
+  (- 7833) -> (- 7833)
+  (- 320) -> (- 320)
+  (- 1108) -> (- 1108)
+  (- 979) -> (- 979)
+  244 -> 244
+  824 -> 824
+  else -> 12
+}
+MapType0Type -> {
+  T@T!val!0 T@T!val!0 -> T@T!val!10
+  T@T!val!6 T@T!val!7 -> T@T!val!13
+  T@T!val!3 T@T!val!0 -> T@T!val!14
+  T@T!val!4 T@T!val!14 -> T@T!val!15
+  T@T!val!0 T@T!val!15 -> T@T!val!16
+  else -> T@T!val!10
+}
+MapType0TypeInv1 -> {
+  T@T!val!10 -> T@T!val!0
+  T@T!val!13 -> T@T!val!7
+  T@T!val!14 -> T@T!val!0
+  T@T!val!15 -> T@T!val!14
+  T@T!val!16 -> T@T!val!15
+  else -> T@T!val!0
+}
+type -> {
+  T@U!val!0 -> T@T!val!3
+  T@U!val!1 -> T@T!val!4
+  T@U!val!2 -> T@T!val!4
+  T@U!val!3 -> T@T!val!9
+  T@U!val!4 -> T@T!val!11
+  T@U!val!5 -> T@T!val!12
+  T@U!val!6 -> T@T!val!12
+  T@U!val!7 -> T@T!val!12
+  T@U!val!8 -> T@T!val!12
+  T@U!val!9 -> T@T!val!13
+  T@U!val!10 -> T@T!val!13
+  T@U!val!11 -> T@T!val!6
+  T@U!val!12 -> T@T!val!5
+  T@U!val!13 -> T@T!val!13
+  T@U!val!14 -> T@T!val!6
+  T@U!val!15 -> T@T!val!5
+  T@U!val!16 -> T@T!val!13
+  T@U!val!17 -> T@T!val!6
+  T@U!val!18 -> T@T!val!5
+  T@U!val!19 -> T@T!val!13
+  T@U!val!20 -> T@T!val!6
+  T@U!val!21 -> T@T!val!5
+  T@U!val!41 -> T@T!val!16
+  T@U!val!22 -> T@T!val!16
+  T@U!val!28 -> T@T!val!13
+  T@U!val!23 -> T@T!val!6
+  T@U!val!24 -> T@T!val!16
+  T@U!val!25 -> T@T!val!16
+  false -> T@T!val!2
+  T@U!val!26 -> T@T!val!7
+  T@U!val!29 -> T@T!val!7
+  true -> T@T!val!2
+  7065 -> T@T!val!0
+  T@U!val!42 -> T@T!val!15
+  T@U!val!40 -> T@T!val!14
+  T@U!val!35 -> T@T!val!15
+  (- 7833) -> T@T!val!0
+  T@U!val!36 -> T@T!val!14
+  T@U!val!30 -> T@T!val!10
+  (- 788) -> T@T!val!0
+  (- 7045) -> T@T!val!0
+  (- 320) -> T@T!val!0
+  T@U!val!44 -> T@T!val!14
+  T@U!val!47 -> T@T!val!14
+  T@U!val!43 -> T@T!val!15
+  (- 1108) -> T@T!val!0
+  T@U!val!49 -> T@T!val!14
+  (- 979) -> T@T!val!0
+  T@U!val!31 -> T@T!val!5
+  12 -> T@T!val!0
+  T@U!val!51 -> T@T!val!14
+  244 -> T@T!val!0
+  T@U!val!53 -> T@T!val!14
+  T@U!val!50 -> T@T!val!15
+  824 -> T@T!val!0
+  T@U!val!55 -> T@T!val!14
+  T@U!val!54 -> T@T!val!15
+  else -> T@T!val!0
+}
+*** END_MODEL
+*** MODEL
+%lbl%@11946 -> false
+%lbl%+11866 -> true
+%lbl%+2569 -> true
+BookStore@@1 -> T@U!val!26
+BookStore@0 -> T@U!val!23
+BookStore@0@@0 -> T@U!val!28
+BookStore@1 -> T@U!val!22
+BookStore@2 -> T@U!val!27
+boolType -> T@T!val!2
+cancelled -> T@U!val!7
+created -> T@U!val!5
+id -> T@U!val!11
+id@@0 -> T@U!val!14
+id@@1 -> T@U!val!17
+id@@2 -> T@U!val!20
+id@@3 -> T@U!val!25
+intType -> T@T!val!0
+items -> T@U!val!4
+MapType1Type -> T@T!val!7
+me -> T@U!val!0
+N -> T@U!val!2
+nb -> 1
+OrderIdType -> T@T!val!6
+P -> T@U!val!1
+placed -> T@U!val!6
+processed -> T@U!val!8
+realType -> T@T!val!1
+ReplicaIDType -> T@T!val!3
+SelectorType -> T@T!val!4
+TType -> T@T!val!8
+u@@1!52!14 -> T@U!val!34
+user -> T@U!val!3
+user@@0 -> T@U!val!30
+UserIdType -> T@T!val!5
+UserOrders@@5 -> T@U!val!10
+UserOrders@0 -> T@U!val!9
+UserOrders@0@@0 -> T@U!val!13
+UserOrders@0@@1 -> T@U!val!16
+UserOrders@0@@2 -> T@U!val!19
+UserOrders@0@@3 -> T@U!val!24
+Users@@1 -> T@U!val!29
+Users@0 -> T@U!val!33
+usr -> T@U!val!12
+usr@@0 -> T@U!val!15
+usr@@1 -> T@U!val!18
+usr@@2 -> T@U!val!21
+FieldType -> {
+  T@T!val!5 -> T@T!val!9
+  T@T!val!10 -> T@T!val!11
+  T@T!val!2 -> T@T!val!12
+  else -> T@T!val!9
+}
+bool_2_U -> {
+  true -> true
+  false -> false
+  else -> true
+}
+MapType0TypeInv0 -> {
+  T@T!val!10 -> T@T!val!0
+  T@T!val!13 -> T@T!val!6
+  T@T!val!14 -> T@T!val!3
+  T@T!val!15 -> T@T!val!4
+  T@T!val!16 -> T@T!val!0
+  T@T!val!17 -> T@T!val!5
+  else -> T@T!val!0
+}
+[3:=] -> {
+  T@U!val!29 T@U!val!30 true -> T@U!val!33
+  else -> T@U!val!33
+}
+FieldTypeInv0 -> {
+  T@T!val!9 -> T@T!val!5
+  T@T!val!11 -> T@T!val!10
+  T@T!val!12 -> T@T!val!2
+  else -> T@T!val!5
+}
+[2] -> {
+  T@U!val!29 T@U!val!30 -> false
+  T@U!val!33 T@U!val!30 -> true
+  else -> false
+}
+Ctor -> {
+  T@T!val!0 -> 0
+  T@T!val!1 -> 1
+  T@T!val!2 -> 2
+  T@T!val!3 -> 3
+  T@T!val!4 -> 4
+  T@T!val!5 -> 6
+  T@T!val!6 -> 8
+  T@T!val!7 -> 9
+  T@T!val!8 -> 10
+  T@T!val!9 -> 5
+  T@T!val!11 -> 5
+  T@T!val!12 -> 5
+  T@T!val!10 -> 7
+  T@T!val!13 -> 7
+  T@T!val!14 -> 7
+  T@T!val!15 -> 7
+  T@T!val!16 -> 7
+  T@T!val!17 -> 7
+  else -> 7
+}
+MapType0Type -> {
+  T@T!val!0 T@T!val!0 -> T@T!val!10
+  T@T!val!6 T@T!val!7 -> T@T!val!13
+  T@T!val!3 T@T!val!0 -> T@T!val!14
+  T@T!val!4 T@T!val!14 -> T@T!val!15
+  T@T!val!0 T@T!val!15 -> T@T!val!16
+  T@T!val!5 T@T!val!2 -> T@T!val!17
+  else -> T@T!val!10
+}
+tickleBool -> {
+  true -> true
+  false -> true
+  else -> true
+}
+U_2_bool -> {
+  false -> false
+  true -> true
+  else -> false
+}
+MapType0TypeInv1 -> {
+  T@T!val!10 -> T@T!val!0
+  T@T!val!13 -> T@T!val!7
+  T@T!val!14 -> T@T!val!0
+  T@T!val!15 -> T@T!val!14
+  T@T!val!16 -> T@T!val!15
+  T@T!val!17 -> T@T!val!2
+  else -> T@T!val!0
+}
+type -> {
+  T@U!val!0 -> T@T!val!3
+  T@U!val!1 -> T@T!val!4
+  T@U!val!2 -> T@T!val!4
+  T@U!val!3 -> T@T!val!9
+  T@U!val!4 -> T@T!val!11
+  T@U!val!5 -> T@T!val!12
+  T@U!val!6 -> T@T!val!12
+  T@U!val!7 -> T@T!val!12
+  T@U!val!8 -> T@T!val!12
+  T@U!val!9 -> T@T!val!13
+  T@U!val!10 -> T@T!val!13
+  T@U!val!11 -> T@T!val!6
+  T@U!val!12 -> T@T!val!5
+  T@U!val!13 -> T@T!val!13
+  T@U!val!14 -> T@T!val!6
+  T@U!val!15 -> T@T!val!5
+  T@U!val!16 -> T@T!val!13
+  T@U!val!17 -> T@T!val!6
+  T@U!val!18 -> T@T!val!5
+  T@U!val!19 -> T@T!val!13
+  T@U!val!20 -> T@T!val!6
+  T@U!val!21 -> T@T!val!5
+  T@U!val!22 -> T@T!val!16
+  T@U!val!23 -> T@T!val!16
+  T@U!val!24 -> T@T!val!13
+  T@U!val!25 -> T@T!val!6
+  T@U!val!26 -> T@T!val!16
+  T@U!val!27 -> T@T!val!16
+  T@U!val!28 -> T@T!val!16
+  T@U!val!33 -> T@T!val!17
+  T@U!val!29 -> T@T!val!17
+  T@U!val!30 -> T@T!val!5
+  T@U!val!34 -> T@T!val!5
+  false -> T@T!val!2
+  true -> T@T!val!2
+  else -> T@T!val!13
+}
+*** END_MODEL

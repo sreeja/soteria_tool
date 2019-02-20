@@ -1,0 +1,32 @@
+*** MODEL
+%lbl%@1321 -> false
+%lbl%+1099 -> true
+%lbl%+336 -> true
+_to0 -> T@ReplicaId!val!1
+_to1 -> T@ReplicaId!val!2
+me -> T@ReplicaId!val!0
+r@@16!8!5 -> T@ReplicaId!val!1
+t@@0 -> 238
+t@0@@0 -> 719
+V@@0 -> |T@[ReplicaId]Int!val!0|
+V@0@@0 -> |T@[ReplicaId]Int!val!1|
+Select_[ReplicaId]$int -> {
+  |T@[ReplicaId]Int!val!0| T@ReplicaId!val!0 -> 1
+  |T@[ReplicaId]Int!val!1| T@ReplicaId!val!1 -> 1
+  |T@[ReplicaId]Int!val!1| T@ReplicaId!val!0 -> 0
+  else -> 1
+}
+inv -> {
+  |T@[ReplicaId]Int!val!0| 238 -> true
+  else -> true
+}
+tickleBool -> {
+  true -> true
+  false -> true
+  else -> true
+}
+r@@0!1!0 -> {
+  |T@[ReplicaId]Int!val!0| -> T@ReplicaId!val!0
+  else -> T@ReplicaId!val!0
+}
+*** END_MODEL

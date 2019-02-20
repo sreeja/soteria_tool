@@ -1,0 +1,61 @@
+*** MODEL
+$mv_state_const -> 11
+%lbl%@5 -> false
+%lbl%+0 -> true
+%lbl%+6 -> true
+_client -> 680
+_to -> 237
+_value -> 1
+balances@@0 -> |T@[Int][Int][Txn]Int!val!0|
+balances@0 -> |T@[Int][Int][Txn]Int!val!1|
+client -> 680
+d -> T@Txn!val!1
+me -> 238
+nc -> 719
+nr -> 239
+q@min -> 797
+value -> 1
+w -> T@Txn!val!0
+Select_[$int][$int][Txn]$int -> {
+  |T@[Int][Int][Txn]Int!val!0| 680 -> |T@[Int][Txn]Int!val!0|
+  |T@[Int][Int][Txn]Int!val!1| 680 -> |T@[Int][Txn]Int!val!1|
+  else -> |T@[Int][Txn]Int!val!0|
+}
+$mv_state -> {
+  11 0 -> true
+  else -> true
+}
+tickleBool -> {
+  true -> true
+  false -> true
+  else -> true
+}
+Select_[Txn]$int -> {
+  |T@[Txn]Int!val!0| T@Txn!val!1 -> 1651
+  |T@[Txn]Int!val!0| T@Txn!val!0 -> 853
+  |T@[Txn]Int!val!1| T@Txn!val!0 -> 854
+  |T@[Txn]Int!val!2| T@Txn!val!1 -> 798
+  |T@[Txn]Int!val!3| T@Txn!val!1 -> 797
+  |T@[Txn]Int!val!1| T@Txn!val!1 -> 1651
+  |T@[Txn]Int!val!2| T@Txn!val!0 -> 0
+  |T@[Txn]Int!val!3| T@Txn!val!0 -> 0
+  else -> 1651
+}
+Select_[$int][Txn]$int -> {
+  |T@[Int][Txn]Int!val!0| 238 -> |T@[Txn]Int!val!0|
+  |T@[Int][Txn]Int!val!1| 238 -> |T@[Txn]Int!val!1|
+  |T@[Int][Txn]Int!val!1| 237 -> |T@[Txn]Int!val!2|
+  |T@[Int][Txn]Int!val!0| 237 -> |T@[Txn]Int!val!3|
+  else -> |T@[Txn]Int!val!0|
+}
+inv -> {
+  |T@[Int][Int][Txn]Int!val!0| -> true
+  else -> true
+}
+*** STATE <initial>
+  balances -> |T@[Int][Int][Txn]Int!val!0|
+*** END_STATE
+*** STATE after
+  balances -> |T@[Int][Int][Txn]Int!val!1|
+*** END_STATE
+*** END_MODEL

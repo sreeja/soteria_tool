@@ -1,0 +1,44 @@
+*** MODEL
+$mv_state_const -> 2
+%lbl%@2 -> false
+%lbl%+0 -> true
+%lbl%+4 -> true
+_t1 -> 719
+_V1 -> |T@[ReplicaId]Bool!val!2|
+t@@0 -> 719
+t@0 -> 719
+V@@0 -> |T@[ReplicaId]Bool!val!1|
+V@0 -> |T@[ReplicaId]Bool!val!0|
+r@@4!3!3 -> {
+  |T@[ReplicaId]Bool!val!2| |T@[ReplicaId]Bool!val!0| -> T@ReplicaId!val!0
+  else -> T@ReplicaId!val!0
+}
+$mv_state -> {
+  2 0 -> true
+  else -> true
+}
+gteq_V -> {
+  719 |T@[ReplicaId]Bool!val!0| 719 |T@[ReplicaId]Bool!val!1| -> true
+  719 |T@[ReplicaId]Bool!val!0| 719 |T@[ReplicaId]Bool!val!2| -> false
+  else -> true
+}
+tickleBool -> {
+  true -> true
+  false -> true
+  else -> true
+}
+Select_[ReplicaId]$bool -> {
+  |T@[ReplicaId]Bool!val!0| T@ReplicaId!val!0 -> true
+  |T@[ReplicaId]Bool!val!1| T@ReplicaId!val!0 -> true
+  |T@[ReplicaId]Bool!val!2| T@ReplicaId!val!0 -> false
+  else -> true
+}
+*** STATE <initial>
+  V -> |T@[ReplicaId]Bool!val!1|
+  t -> 719
+*** END_STATE
+*** STATE after
+  V -> |T@[ReplicaId]Bool!val!0|
+  t -> 719
+*** END_STATE
+*** END_MODEL

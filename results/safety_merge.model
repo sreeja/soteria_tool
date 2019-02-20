@@ -1,0 +1,197 @@
+*** MODEL
+$mv_state_const -> 10
+%lbl%@7 -> true
+%lbl%@8 -> false
+%lbl%+0 -> true
+%lbl%+9 -> true
+_bids1 -> T@U!val!6
+_status1 -> 1bv2
+_token1 -> T@U!val!7
+_winner1 -> 8
+active -> 1bv2
+amount -> T@U!val!1
+b@@18!32!11 -> 0
+bids@@4 -> T@U!val!4
+bids@0 -> T@U!val!8
+boolType -> T@T!val!2
+closed -> 2bv2
+intType -> T@T!val!0
+invalid -> 0bv2
+MapType1Type -> T@T!val!6
+me -> 372
+nb -> 1
+nr -> 1042
+null -> 8
+placed -> T@U!val!0
+r@@7!36!7 -> 366
+r@@9!22!10 -> 245
+realType -> T@T!val!1
+rmodeType -> T@T!val!3
+status@@3 -> 0bv2
+status@0 -> 1bv2
+token@@3 -> T@U!val!5
+token@0 -> T@U!val!9
+TType -> T@T!val!7
+winner@@2 -> 8
+winner@0 -> 8
+$mv_state -> {
+  10 0 -> true
+  else -> true
+}
+[2] -> {
+  T@U!val!5 372 -> false
+  T@U!val!8 0 -> T@U!val!11
+  T@U!val!5 366 -> true
+  T@U!val!4 0 -> T@U!val!17
+  T@U!val!6 0 -> T@U!val!19
+  T@U!val!5 245 -> true
+  T@U!val!5 887 -> true
+  T@U!val!9 245 -> false
+  T@U!val!7 245 -> false
+  T@U!val!9 366 -> false
+  T@U!val!7 366 -> false
+  T@U!val!9 887 -> false
+  T@U!val!7 887 -> false
+  T@U!val!9 372 -> false
+  T@U!val!11 T@U!val!0 -> true
+  T@U!val!11 T@U!val!1 -> (- 274)
+  T@U!val!17 T@U!val!0 -> false
+  T@U!val!19 T@U!val!0 -> true
+  T@U!val!17 T@U!val!1 -> (- 274)
+  T@U!val!19 T@U!val!1 -> 2154
+  else -> false
+}
+Ctor -> {
+  T@T!val!0 -> 0
+  T@T!val!1 -> 1
+  T@T!val!2 -> 2
+  T@T!val!3 -> 3
+  T@T!val!6 -> 6
+  T@T!val!7 -> 7
+  T@T!val!4 -> 4
+  T@T!val!5 -> 4
+  T@T!val!8 -> 5
+  T@T!val!9 -> 5
+  else -> 4
+}
+tickleBool -> {
+  true -> true
+  false -> true
+  else -> true
+}
+U_2_bool -> {
+  true -> true
+  false -> false
+  else -> true
+}
+BfieldTypeInv0 -> {
+  T@T!val!4 -> T@T!val!2
+  T@T!val!5 -> T@T!val!0
+  else -> T@T!val!2
+}
+BfieldType -> {
+  T@T!val!2 -> T@T!val!4
+  T@T!val!0 -> T@T!val!5
+  else -> T@T!val!4
+}
+U_2_int -> {
+  372 -> 372
+  8 -> 8
+  (- 274) -> (- 274)
+  0 -> 0
+  887 -> 887
+  366 -> 366
+  245 -> 245
+  2154 -> 2154
+  else -> 372
+}
+bv2max -> {
+  0bv2 1bv2 -> 1bv2
+  else -> 1bv2
+}
+MapType0TypeInv0 -> {
+  T@T!val!8 -> T@T!val!0
+  T@T!val!9 -> T@T!val!0
+  else -> T@T!val!0
+}
+inv -> {
+  0bv2 8 T@U!val!4 T@U!val!5 -> true
+  1bv2 8 T@U!val!6 T@U!val!7 -> true
+  else -> true
+}
+r@@0!6!0 -> {
+  T@U!val!5 -> 887
+  else -> 887
+}
+bool_2_U -> {
+  true -> true
+  false -> false
+  else -> true
+}
+token_released -> {
+  T@U!val!5 -> false
+  else -> false
+}
+int_2_U -> {
+  372 -> 372
+  8 -> 8
+  0 -> 0
+  887 -> 887
+  366 -> 366
+  245 -> 245
+  (- 274) -> (- 274)
+  2154 -> 2154
+  else -> 372
+}
+MapType0Type -> {
+  T@T!val!0 T@T!val!6 -> T@T!val!8
+  T@T!val!0 T@T!val!2 -> T@T!val!9
+  else -> T@T!val!8
+}
+b@@8!18!4 -> {
+  T@U!val!4 8 -> (- 1)
+  T@U!val!6 8 -> (- 8822)
+  else -> (- 1)
+}
+MapType0TypeInv1 -> {
+  T@T!val!8 -> T@T!val!6
+  T@T!val!9 -> T@T!val!2
+  else -> T@T!val!6
+}
+type -> {
+  T@U!val!0 -> T@T!val!4
+  T@U!val!1 -> T@T!val!5
+  T@U!val!4 -> T@T!val!8
+  T@U!val!5 -> T@T!val!9
+  T@U!val!6 -> T@T!val!8
+  T@U!val!7 -> T@T!val!9
+  T@U!val!8 -> T@T!val!8
+  T@U!val!9 -> T@T!val!9
+  372 -> T@T!val!0
+  8 -> T@T!val!0
+  true -> T@T!val!2
+  (- 274) -> T@T!val!0
+  0 -> T@T!val!0
+  T@U!val!11 -> T@T!val!6
+  T@U!val!17 -> T@T!val!6
+  false -> T@T!val!2
+  T@U!val!19 -> T@T!val!6
+  245 -> T@T!val!0
+  366 -> T@T!val!0
+  2154 -> T@T!val!0
+  887 -> T@T!val!0
+  else -> T@T!val!0
+}
+*** STATE <initial>
+  status -> 0bv2
+  winner -> 8
+  bids -> T@U!val!4
+  token -> T@U!val!5
+*** END_STATE
+*** STATE after
+  status -> 1bv2
+  winner -> 8
+  bids -> T@U!val!8
+  token -> T@U!val!9
+*** END_STATE
+*** END_MODEL

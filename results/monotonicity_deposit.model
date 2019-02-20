@@ -1,0 +1,48 @@
+*** MODEL
+%lbl%@1 -> false
+%lbl%+0 -> true
+%lbl%+2 -> true
+_client -> 718
+_value -> (- 1384)
+balances@@0 -> |T@[Int][Int][Txn]Int!val!0|
+balances@0 -> |T@[Int][Int][Txn]Int!val!1|
+d -> T@Txn!val!1
+me -> 142
+nc -> 719
+nr -> 143
+w -> T@Txn!val!0
+c@@0!4!1 -> {
+  |T@[Int][Int][Txn]Int!val!0| |T@[Int][Int][Txn]Int!val!1| -> 718
+  else -> 718
+}
+r@@0!4!0 -> {
+  |T@[Int][Int][Txn]Int!val!0| |T@[Int][Int][Txn]Int!val!1| -> 142
+  else -> 142
+}
+gteq_counter -> {
+  |T@[Int][Int][Txn]Int!val!1| |T@[Int][Int][Txn]Int!val!0| -> false
+  else -> false
+}
+tickleBool -> {
+  true -> true
+  false -> true
+  else -> true
+}
+Select_[Txn]$int -> {
+  |T@[Txn]Int!val!0| T@Txn!val!1 -> 921
+  |T@[Txn]Int!val!1| T@Txn!val!1 -> (- 463)
+  |T@[Txn]Int!val!1| T@Txn!val!0 -> (- 3)
+  |T@[Txn]Int!val!0| T@Txn!val!0 -> (- 3)
+  else -> (- 3)
+}
+Select_[$int][Txn]$int -> {
+  |T@[Int][Txn]Int!val!0| 142 -> |T@[Txn]Int!val!0|
+  |T@[Int][Txn]Int!val!1| 142 -> |T@[Txn]Int!val!1|
+  else -> |T@[Txn]Int!val!0|
+}
+Select_[$int][$int][Txn]$int -> {
+  |T@[Int][Int][Txn]Int!val!0| 718 -> |T@[Int][Txn]Int!val!0|
+  |T@[Int][Int][Txn]Int!val!1| 718 -> |T@[Int][Txn]Int!val!1|
+  else -> |T@[Int][Txn]Int!val!0|
+}
+*** END_MODEL

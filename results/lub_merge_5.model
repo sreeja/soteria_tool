@@ -1,0 +1,37 @@
+*** MODEL
+%lbl%@3 -> false
+%lbl%+0 -> true
+%lbl%+4 -> true
+_set!3!1 -> |T@[Int]Bool!val!3|
+_set1 -> |T@[Int]Bool!val!2|
+set -> |T@[Int]Bool!val!1|
+set@0 -> |T@[Int]Bool!val!0|
+gteq -> {
+  |T@[Int]Bool!val!0| |T@[Int]Bool!val!1| -> true
+  |T@[Int]Bool!val!0| |T@[Int]Bool!val!2| -> true
+  |T@[Int]Bool!val!3| |T@[Int]Bool!val!1| -> true
+  |T@[Int]Bool!val!3| |T@[Int]Bool!val!2| -> true
+  |T@[Int]Bool!val!3| |T@[Int]Bool!val!0| -> false
+  else -> true
+}
+i@@0!0!0 -> {
+  |T@[Int]Bool!val!1| |T@[Int]Bool!val!0| -> 0
+  |T@[Int]Bool!val!2| |T@[Int]Bool!val!0| -> 1
+  |T@[Int]Bool!val!0| |T@[Int]Bool!val!3| -> 2
+  else -> 0
+}
+tickleBool -> {
+  true -> true
+  false -> true
+  else -> true
+}
+Select_[$int]$bool -> {
+  |T@[Int]Bool!val!0| 0 -> true
+  |T@[Int]Bool!val!0| 1 -> true
+  |T@[Int]Bool!val!0| 2 -> true
+  |T@[Int]Bool!val!3| 2 -> false
+  |T@[Int]Bool!val!2| 2 -> false
+  |T@[Int]Bool!val!1| 2 -> false
+  else -> true
+}
+*** END_MODEL

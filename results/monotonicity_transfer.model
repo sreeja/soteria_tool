@@ -1,0 +1,25 @@
+*** MODEL
+%lbl%@878 -> false
+%lbl%+287 -> true
+%lbl%+723 -> true
+_to -> T@ReplicaId!val!1
+me -> T@ReplicaId!val!0
+r@@9!8!5 -> T@ReplicaId!val!0
+t@@0 -> 239
+t@0@@0 -> 238
+V@@0 -> |T@[ReplicaId]Int!val!0|
+V@0@@0 -> |T@[ReplicaId]Int!val!1|
+gteq_V -> {
+  238 |T@[ReplicaId]Int!val!1| 239 |T@[ReplicaId]Int!val!0| -> false
+  else -> false
+}
+Select_[ReplicaId]$int -> {
+  |T@[ReplicaId]Int!val!1| T@ReplicaId!val!1 -> 1
+  else -> 1
+}
+tickleBool -> {
+  true -> true
+  false -> true
+  else -> true
+}
+*** END_MODEL

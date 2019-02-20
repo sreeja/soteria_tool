@@ -1,0 +1,40 @@
+*** MODEL
+%lbl%@1731 -> false
+%lbl%+1505 -> true
+%lbl%+472 -> true
+_from1 -> 2
+_t10 -> 238
+_to1 -> 5
+_V10 -> |T@[Int]Int!val!1|
+t@@1 -> 237
+t@0@@1 -> 238
+this -> 3
+V@@1 -> |T@[Int]Int!val!0|
+V@0@@1 -> |T@[Int]Int!val!2|
+Select_[$int]$int -> {
+  |T@[Int]Int!val!0| 2 -> 1
+  |T@[Int]Int!val!0| 3 -> 0
+  |T@[Int]Int!val!2| 2 -> 0
+  |T@[Int]Int!val!1| 6 -> 1
+  |T@[Int]Int!val!1| 2 -> 0
+  |T@[Int]Int!val!2| 6 -> 1
+  |T@[Int]Int!val!2| 3 -> 0
+  |T@[Int]Int!val!1| 3 -> 0
+  else -> 0
+}
+tickleBool -> {
+  true -> true
+  false -> true
+  else -> true
+}
+inv -> {
+  |T@[Int]Int!val!0| 237 -> true
+  |T@[Int]Int!val!1| 238 -> true
+  else -> true
+}
+r@@0!1!0 -> {
+  |T@[Int]Int!val!0| -> 2
+  |T@[Int]Int!val!1| -> 6
+  else -> 2
+}
+*** END_MODEL

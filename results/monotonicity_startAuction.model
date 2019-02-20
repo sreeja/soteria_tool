@@ -1,0 +1,52 @@
+*** MODEL
+$mv_state_const -> 3
+%lbl%@3 -> false
+%lbl%+0 -> true
+%lbl%+4 -> true
+_identifier -> 238
+auction_active@@1 -> |T@[Int]Bool!val!2|
+auction_active@0 -> |T@[Int]Bool!val!4|
+auction_closed@@1 -> |T@[Int]Bool!val!3|
+auction_prep@@1 -> |T@[Int]Bool!val!1|
+auction_winner@@1 -> |T@[Int]Int!val!0|
+auctions@@1 -> |T@[Int]Bool!val!0|
+bid_amount@@2 -> |T@[Int]Int!val!2|
+bid_auction@@2 -> |T@[Int]Int!val!1|
+bids@@2 -> |T@[Int]Bool!val!5|
+na -> 239
+nb -> 719
+gteq -> {
+  |T@[Int]Bool!val!0| |T@[Int]Int!val!0| |T@[Int]Bool!val!1| |T@[Int]Bool!val!4| |T@[Int]Bool!val!3| |T@[Int]Bool!val!5| |T@[Int]Int!val!1| |T@[Int]Int!val!2| |T@[Int]Bool!val!0| |T@[Int]Int!val!0| |T@[Int]Bool!val!1| |T@[Int]Bool!val!2| |T@[Int]Bool!val!3| |T@[Int]Bool!val!5| |T@[Int]Int!val!1| |T@[Int]Int!val!2| -> false
+  else -> false
+}
+$mv_state -> {
+  3 0 -> true
+  else -> true
+}
+tickleBool -> {
+  true -> true
+  false -> true
+  else -> true
+}
+Select_[$int]$bool -> {
+  |T@[Int]Bool!val!0| 238 -> true
+  |T@[Int]Bool!val!1| 238 -> true
+  |T@[Int]Bool!val!2| 238 -> false
+  |T@[Int]Bool!val!3| 238 -> false
+  |T@[Int]Bool!val!4| 238 -> true
+  else -> true
+}
+*** STATE <initial>
+  auctions -> |T@[Int]Bool!val!0|
+  auction_prep -> |T@[Int]Bool!val!1|
+  auction_active -> |T@[Int]Bool!val!2|
+  auction_closed -> |T@[Int]Bool!val!3|
+  auction_winner -> |T@[Int]Int!val!0|
+  bids -> |T@[Int]Bool!val!5|
+  bid_auction -> |T@[Int]Int!val!1|
+  bid_amount -> |T@[Int]Int!val!2|
+*** END_STATE
+*** STATE after
+  auction_active -> |T@[Int]Bool!val!4|
+*** END_STATE
+*** END_MODEL

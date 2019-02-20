@@ -1,0 +1,139 @@
+*** MODEL
+%lbl%@12 -> false
+%lbl%+10 -> true
+%lbl%+20 -> true
+%lbl%+21 -> true
+%lbl%+28 -> true
+%lbl%+29 -> true
+%lbl%+30 -> true
+active -> 1bv2
+amount -> T@U!val!1
+b@0 -> 1
+bids@@4 -> T@U!val!6
+bids@0 -> T@U!val!5
+bids@1 -> T@U!val!4
+bids@2 -> T@U!val!8
+bids@3 -> T@U!val!13
+bids1@@0 -> T@U!val!7
+boolType -> T@T!val!2
+closed -> 2bv2
+intType -> T@T!val!0
+invalid -> 0bv2
+j@@4!29!7 -> 796
+MapType1Type -> T@T!val!6
+me -> 0
+nb -> 1
+nr -> 797
+null -> 8
+placed -> T@U!val!0
+realType -> T@T!val!1
+rmodeType -> T@T!val!3
+status@@3 -> 0bv2
+status@0 -> 0bv2
+status1@@0 -> 0bv2
+token@@3 -> T@U!val!11
+token@0 -> T@U!val!10
+token@1 -> T@U!val!9
+token@2 -> T@U!val!14
+token1@@0 -> T@U!val!12
+TType -> T@T!val!7
+winner@@2 -> 10
+winner@0 -> 10
+winner1@@0 -> 10
+[2] -> {
+  T@U!val!11 0 -> false
+  T@U!val!11 796 -> true
+  T@U!val!12 796 -> false
+  else -> false
+}
+Ctor -> {
+  T@T!val!0 -> 0
+  T@T!val!1 -> 1
+  T@T!val!2 -> 2
+  T@T!val!3 -> 3
+  T@T!val!6 -> 6
+  T@T!val!7 -> 7
+  T@T!val!4 -> 4
+  T@T!val!5 -> 4
+  T@T!val!8 -> 5
+  T@T!val!9 -> 5
+  else -> 4
+}
+U_2_bool -> {
+  false -> false
+  true -> true
+  else -> false
+}
+tickleBool -> {
+  true -> true
+  false -> true
+  else -> true
+}
+BfieldTypeInv0 -> {
+  T@T!val!4 -> T@T!val!2
+  T@T!val!5 -> T@T!val!0
+  else -> T@T!val!2
+}
+BfieldType -> {
+  T@T!val!2 -> T@T!val!4
+  T@T!val!0 -> T@T!val!5
+  else -> T@T!val!4
+}
+U_2_int -> {
+  0 -> 0
+  8 -> 8
+  796 -> 796
+  else -> 0
+}
+bv2max -> {
+  0bv2 0bv2 -> 0bv2
+  else -> 0bv2
+}
+MapType0TypeInv0 -> {
+  T@T!val!8 -> T@T!val!0
+  T@T!val!9 -> T@T!val!0
+  else -> T@T!val!0
+}
+bool_2_U -> {
+  false -> false
+  true -> true
+  else -> false
+}
+int_2_U -> {
+  0 -> 0
+  8 -> 8
+  796 -> 796
+  else -> 0
+}
+MapType0Type -> {
+  T@T!val!0 T@T!val!6 -> T@T!val!8
+  T@T!val!0 T@T!val!2 -> T@T!val!9
+  else -> T@T!val!8
+}
+MapType0TypeInv1 -> {
+  T@T!val!8 -> T@T!val!6
+  T@T!val!9 -> T@T!val!2
+  else -> T@T!val!6
+}
+type -> {
+  T@U!val!0 -> T@T!val!4
+  T@U!val!1 -> T@T!val!5
+  T@U!val!4 -> T@T!val!8
+  T@U!val!5 -> T@T!val!8
+  T@U!val!6 -> T@T!val!8
+  T@U!val!7 -> T@T!val!8
+  T@U!val!8 -> T@T!val!8
+  T@U!val!9 -> T@T!val!9
+  T@U!val!10 -> T@T!val!9
+  T@U!val!11 -> T@T!val!9
+  T@U!val!12 -> T@T!val!9
+  T@U!val!13 -> T@T!val!8
+  T@U!val!14 -> T@T!val!9
+  0 -> T@T!val!0
+  8 -> T@T!val!0
+  false -> T@T!val!2
+  true -> T@T!val!2
+  796 -> T@T!val!0
+  else -> T@T!val!8
+}
+*** END_MODEL

@@ -1,0 +1,238 @@
+*** MODEL
+$mv_state_const -> 12
+%lbl%@5890 -> true
+%lbl%@6026 -> true
+%lbl%@6092 -> true
+%lbl%@6230 -> false
+%lbl%+1954 -> true
+%lbl%+4635 -> true
+_auction_identifier -> 4
+a@@32!35!18 -> (- 3962)
+a@@34!36!20 -> 4
+active -> 1bv2
+amount -> T@U!val!5
+auction -> T@U!val!4
+auctions@@6 -> T@U!val!8
+auctions@0 -> T@U!val!7
+auctions@0@@0 -> T@U!val!16
+auctions@1 -> T@U!val!9
+auctions@2 -> T@U!val!10
+auctions1@@0 -> T@U!val!13
+b@@14!32!15 -> (- 7064)
+b@@16!36!19 -> 5
+bids@@5 -> T@U!val!12
+bids1@@0 -> T@U!val!14
+boolType -> T@T!val!2
+bv2Type -> T@T!val!3
+closed -> 2bv2
+intType -> T@T!val!0
+invalid -> 0bv2
+MapType1Type -> T@T!val!4
+MapType2Type -> T@T!val!6
+me -> 5
+na -> 5
+nb -> 6
+nr -> 6
+null -> (- 663)
+placed -> T@U!val!3
+r@@8!29!13 -> (- 1)
+realType -> T@T!val!1
+reg -> T@U!val!0
+status -> T@U!val!1
+token@@3 -> T@U!val!11
+token1@@0 -> T@U!val!15
+TType -> T@T!val!5
+winner -> T@U!val!2
+inv -> {
+  T@U!val!8 T@U!val!12 T@U!val!11 -> true
+  T@U!val!13 T@U!val!14 T@U!val!15 -> true
+  else -> true
+}
+bv2_2_U -> {
+  0bv2 -> T@U!val!18
+  1bv2 -> T@U!val!31
+  else -> T@U!val!18
+}
+$mv_state -> {
+  12 0 -> true
+  else -> true
+}
+U_2_bv2 -> {
+  T@U!val!18 -> 0bv2
+  T@U!val!31 -> 1bv2
+  else -> 0bv2
+}
+[2] -> {
+  T@U!val!29 (- 1) -> true
+  T@U!val!16 4 -> T@U!val!24
+  T@U!val!12 5 -> T@U!val!26
+  T@U!val!14 5 -> T@U!val!27
+  T@U!val!15 4 -> T@U!val!28
+  T@U!val!28 5 -> true
+  T@U!val!11 4 -> T@U!val!29
+  T@U!val!8 4 -> T@U!val!30
+  T@U!val!13 4 -> T@U!val!32
+  T@U!val!24 T@U!val!0 -> true
+  T@U!val!30 T@U!val!0 -> false
+  T@U!val!24 T@U!val!2 -> (- 663)
+  T@U!val!24 T@U!val!1 -> T@U!val!31
+  T@U!val!30 T@U!val!2 -> (- 663)
+  T@U!val!30 T@U!val!1 -> T@U!val!18
+  T@U!val!32 T@U!val!2 -> (- 663)
+  T@U!val!32 T@U!val!1 -> T@U!val!31
+  T@U!val!32 T@U!val!0 -> true
+  T@U!val!26 T@U!val!4 -> 4
+  T@U!val!26 T@U!val!3 -> false
+  T@U!val!27 T@U!val!3 -> true
+  T@U!val!27 T@U!val!4 -> 4
+  T@U!val!26 T@U!val!5 -> 6
+  T@U!val!27 T@U!val!5 -> 6
+  else -> true
+}
+Ctor -> {
+  T@T!val!0 -> 0
+  T@T!val!1 -> 1
+  T@T!val!2 -> 2
+  T@T!val!3 -> 4
+  T@T!val!4 -> 7
+  T@T!val!5 -> 8
+  T@T!val!6 -> 9
+  T@T!val!7 -> 3
+  T@T!val!8 -> 3
+  T@T!val!9 -> 3
+  T@T!val!10 -> 5
+  T@T!val!11 -> 5
+  T@T!val!12 -> 6
+  T@T!val!13 -> 6
+  T@T!val!14 -> 6
+  T@T!val!15 -> 6
+  else -> 6
+}
+U_2_bool -> {
+  false -> false
+  true -> true
+  else -> false
+}
+tickleBool -> {
+  true -> true
+  false -> true
+  else -> true
+}
+BfieldTypeInv0 -> {
+  T@T!val!10 -> T@T!val!2
+  T@T!val!11 -> T@T!val!0
+  else -> T@T!val!2
+}
+BfieldType -> {
+  T@T!val!2 -> T@T!val!10
+  T@T!val!0 -> T@T!val!11
+  else -> T@T!val!10
+}
+U_2_int -> {
+  (- 663) -> (- 663)
+  (- 1) -> (- 1)
+  (- 7064) -> (- 7064)
+  (- 3962) -> (- 3962)
+  5 -> 5
+  6 -> 6
+  4 -> 4
+  else -> (- 663)
+}
+token_released -> {
+  T@U!val!11 4 -> true
+  else -> true
+}
+MapType0TypeInv0 -> {
+  T@T!val!12 -> T@T!val!0
+  T@T!val!13 -> T@T!val!0
+  T@T!val!14 -> T@T!val!0
+  T@T!val!15 -> T@T!val!0
+  else -> T@T!val!0
+}
+bool_2_U -> {
+  false -> false
+  true -> true
+  else -> false
+}
+AfieldTypeInv0 -> {
+  T@T!val!7 -> T@T!val!2
+  T@T!val!8 -> T@T!val!3
+  T@T!val!9 -> T@T!val!0
+  else -> T@T!val!2
+}
+int_2_U -> {
+  (- 663) -> (- 663)
+  (- 1) -> (- 1)
+  (- 7064) -> (- 7064)
+  (- 3962) -> (- 3962)
+  4 -> 4
+  5 -> 5
+  6 -> 6
+  else -> (- 663)
+}
+MapType0Type -> {
+  T@T!val!0 T@T!val!4 -> T@T!val!12
+  T@T!val!0 T@T!val!2 -> T@T!val!13
+  T@T!val!0 T@T!val!13 -> T@T!val!14
+  T@T!val!0 T@T!val!6 -> T@T!val!15
+  else -> T@T!val!12
+}
+AfieldType -> {
+  T@T!val!2 -> T@T!val!7
+  T@T!val!3 -> T@T!val!8
+  T@T!val!0 -> T@T!val!9
+  else -> T@T!val!7
+}
+MapType0TypeInv1 -> {
+  T@T!val!12 -> T@T!val!4
+  T@T!val!13 -> T@T!val!2
+  T@T!val!14 -> T@T!val!13
+  T@T!val!15 -> T@T!val!6
+  else -> T@T!val!4
+}
+type -> {
+  T@U!val!0 -> T@T!val!7
+  T@U!val!1 -> T@T!val!8
+  T@U!val!2 -> T@T!val!9
+  T@U!val!3 -> T@T!val!10
+  T@U!val!4 -> T@T!val!11
+  T@U!val!5 -> T@T!val!11
+  T@U!val!7 -> T@T!val!12
+  T@U!val!8 -> T@T!val!12
+  T@U!val!9 -> T@T!val!12
+  T@U!val!10 -> T@T!val!12
+  T@U!val!11 -> T@T!val!14
+  T@U!val!12 -> T@T!val!15
+  T@U!val!13 -> T@T!val!12
+  T@U!val!14 -> T@T!val!15
+  T@U!val!15 -> T@T!val!14
+  T@U!val!16 -> T@T!val!12
+  (- 663) -> T@T!val!0
+  false -> T@T!val!2
+  T@U!val!18 -> T@T!val!3
+  (- 1) -> T@T!val!0
+  true -> T@T!val!2
+  T@U!val!29 -> T@T!val!13
+  (- 7064) -> T@T!val!0
+  (- 3962) -> T@T!val!0
+  5 -> T@T!val!0
+  T@U!val!26 -> T@T!val!6
+  T@U!val!27 -> T@T!val!6
+  4 -> T@T!val!0
+  T@U!val!24 -> T@T!val!4
+  T@U!val!31 -> T@T!val!3
+  T@U!val!30 -> T@T!val!4
+  T@U!val!32 -> T@T!val!4
+  6 -> T@T!val!0
+  T@U!val!28 -> T@T!val!13
+  else -> T@T!val!0
+}
+*** STATE <initial>
+  auctions -> T@U!val!8
+  bids -> T@U!val!12
+  token -> T@U!val!11
+*** END_STATE
+*** STATE after
+  auctions -> T@U!val!16
+*** END_STATE
+*** END_MODEL

@@ -1,0 +1,18 @@
+*** MODEL
+%lbl%@236 -> false
+%lbl%+194 -> true
+%lbl%+82 -> true
+_value0 -> (- 1)
+_value1 -> (- 145)
+counter@@0 -> 0
+counter@0 -> (- 635)
+inv -> {
+  0 -> true
+  else -> true
+}
+tickleBool -> {
+  true -> true
+  false -> true
+  else -> true
+}
+*** END_MODEL

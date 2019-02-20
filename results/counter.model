@@ -1,0 +1,172 @@
+*** MODEL
+%lbl%@1 -> false
+%lbl%+0 -> true
+%lbl%+2 -> true
+%lbl%+24 -> true
+%lbl%+25 -> true
+%lbl%+31 -> true
+i@0 -> 1
+j@0 -> 238
+newR@@0 -> |T@[Int][Int]Int!val!1|
+R@@11 -> |T@[Int][Int]Int!val!2|
+R@0 -> |T@[Int][Int]Int!val!0|
+R@3 -> |T@[Int][Int]Int!val!0|
+replicas -> 1
+U@0 -> |T@[Int]Int!val!0|
+U@2 -> |T@[Int]Int!val!0|
+q@max -> {
+  6704 6702 -> 6704
+  6702 6703 -> 6703
+  else -> 6704
+}
+r1@@5!21!7 -> {
+  |T@[Int][Int]Int!val!0| |T@[Int][Int]Int!val!2| |T@[Int][Int]Int!val!1| -> 0
+  else -> 0
+}
+r2@@5!21!6 -> {
+  |T@[Int][Int]Int!val!0| |T@[Int][Int]Int!val!2| |T@[Int][Int]Int!val!1| -> 0
+  else -> 0
+}
+tickleBool -> {
+  true -> true
+  false -> true
+  else -> true
+}
+Select_[$int][$int]$int -> {
+  |T@[Int][Int]Int!val!0| 0 -> |T@[Int]Int!val!1|
+  |T@[Int][Int]Int!val!1| 0 -> |T@[Int]Int!val!2|
+  |T@[Int][Int]Int!val!2| 0 -> |T@[Int]Int!val!3|
+  else -> |T@[Int]Int!val!1|
+}
+update2dmatrix -> {
+  |T@[Int][Int]Int!val!1| |T@[Int][Int]Int!val!2| |T@[Int][Int]Int!val!0| -> false
+  else -> false
+}
+Select_[$int]$int -> {
+  |T@[Int]Int!val!1| 0 -> 6703
+  |T@[Int]Int!val!2| 0 -> 6704
+  |T@[Int]Int!val!3| 0 -> 6702
+  else -> 6703
+}
+*** END_MODEL
+*** MODEL
+%lbl%@1 -> true
+%lbl%@21 -> true
+%lbl%@22 -> true
+%lbl%@23 -> true
+%lbl%@6 -> false
+%lbl%+16 -> true
+%lbl%+17 -> true
+%lbl%+24 -> true
+%lbl%+25 -> true
+%lbl%+3 -> true
+%lbl%+31 -> true
+i@0 -> 19
+j@0 -> 238
+j@1 -> 18
+j@2 -> 19
+k!36!23 -> 18
+newR@@0 -> |T@[Int][Int]Int!val!1|
+newU@@0 -> |T@[Int]Int!val!1|
+R@@11 -> |T@[Int][Int]Int!val!2|
+R@0 -> |T@[Int][Int]Int!val!0|
+R@1 -> |T@[Int][Int]Int!val!3|
+R@2 -> |T@[Int][Int]Int!val!4|
+replicas -> 21
+U@@8 -> |T@[Int]Int!val!2|
+U@0 -> |T@[Int]Int!val!0|
+U@1 -> |T@[Int]Int!val!3|
+q@max -> {
+  7572 3251 -> 7572
+  0 0 -> 0
+  0 879 -> 879
+  else -> 7572
+}
+Store_[$int]$int -> {
+  |T@[Int]Int!val!0| 19 7572 -> |T@[Int]Int!val!3|
+  |T@[Int]Int!val!6| 18 0 -> |T@[Int]Int!val!8|
+  else -> |T@[Int]Int!val!3|
+}
+Select_[$int]$int -> {
+  |T@[Int]Int!val!2| 19 -> 7572
+  |T@[Int]Int!val!1| 19 -> 3251
+  |T@[Int]Int!val!7| 19 -> 0
+  |T@[Int]Int!val!8| 18 -> 0
+  |T@[Int]Int!val!5| 18 -> 0
+  |T@[Int]Int!val!7| 18 -> 879
+  |T@[Int]Int!val!3| 19 -> 7572
+  |T@[Int]Int!val!0| 19 -> 7572
+  |T@[Int]Int!val!6| 18 -> 0
+  |T@[Int]Int!val!4| 18 -> 0
+  else -> 0
+}
+tickleBool -> {
+  true -> true
+  false -> true
+  else -> true
+}
+Select_[$int][$int]$int -> {
+  |T@[Int][Int]Int!val!0| 19 -> |T@[Int]Int!val!4|
+  |T@[Int][Int]Int!val!2| 19 -> |T@[Int]Int!val!5|
+  |T@[Int][Int]Int!val!3| 19 -> |T@[Int]Int!val!6|
+  |T@[Int][Int]Int!val!1| 19 -> |T@[Int]Int!val!7|
+  |T@[Int][Int]Int!val!4| 19 -> |T@[Int]Int!val!8|
+  else -> |T@[Int]Int!val!4|
+}
+Store_[$int][$int]$int -> {
+  |T@[Int][Int]Int!val!3| 19 |T@[Int]Int!val!8| -> |T@[Int][Int]Int!val!4|
+  else -> |T@[Int][Int]Int!val!4|
+}
+*** END_MODEL
+*** MODEL
+%lbl%@1 -> true
+%lbl%@21 -> true
+%lbl%@22 -> false
+%lbl%+17 -> true
+%lbl%+24 -> true
+%lbl%+25 -> true
+%lbl%+31 -> true
+h@@11!38!14 -> 0
+i@0 -> 1
+j@0 -> 238
+k@@18!38!13 -> 1
+newR@@0 -> |T@[Int][Int]Int!val!1|
+newU@@0 -> |T@[Int]Int!val!1|
+R@@11 -> |T@[Int][Int]Int!val!2|
+R@0 -> |T@[Int][Int]Int!val!0|
+replicas -> 2
+U@@8 -> |T@[Int]Int!val!2|
+U@0 -> |T@[Int]Int!val!0|
+U@1 -> |T@[Int]Int!val!3|
+q@max -> {
+  7572 3251 -> 7572
+  373 79 -> 373
+  373 393 -> 393
+  else -> 7572
+}
+Store_[$int]$int -> {
+  |T@[Int]Int!val!0| 1 7572 -> |T@[Int]Int!val!3|
+  else -> |T@[Int]Int!val!3|
+}
+Select_[$int]$int -> {
+  |T@[Int]Int!val!2| 1 -> 7572
+  |T@[Int]Int!val!1| 1 -> 3251
+  |T@[Int]Int!val!4| 1 -> 393
+  |T@[Int]Int!val!5| 1 -> 373
+  |T@[Int]Int!val!6| 1 -> 79
+  |T@[Int]Int!val!3| 1 -> 7572
+  |T@[Int]Int!val!0| 1 -> 7572
+  else -> 7572
+}
+tickleBool -> {
+  true -> true
+  false -> true
+  else -> true
+}
+Select_[$int][$int]$int -> {
+  |T@[Int][Int]Int!val!0| 0 -> |T@[Int]Int!val!4|
+  |T@[Int][Int]Int!val!2| 0 -> |T@[Int]Int!val!5|
+  |T@[Int][Int]Int!val!1| 0 -> |T@[Int]Int!val!6|
+  else -> |T@[Int]Int!val!4|
+}
+*** END_MODEL
